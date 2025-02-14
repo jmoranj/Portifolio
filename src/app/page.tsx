@@ -1,8 +1,7 @@
-import { ContentContainer } from "@/components/contentContainer/ContentContainer";
-import PersonalInfo from "@/components/personalInfo/PersonalInfo";
+import PersonalInfo from "@/components/personalnfo/PersonalInfo";
 
 export default function Home() {
-  return<ContentContainer>
+  return<>
     <PersonalInfo />
-  </ContentContainer>
+  </>
 }
