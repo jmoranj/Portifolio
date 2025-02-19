@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function PersonalInfo() {
   return (
-    <div className="flex items-center justify-center gap-10 max-w-4xl mx-auto border-red-700 mt-32">
-      <div className="relative aspect-square w-96 h-96 border-4 rounded-full">
+    <div className="flex items-center justify-center gap-10 max-w-4xl mx-auto mt-32">
+      <div className="relative aspect-square w-96 h-96 border-4 rounded-full animate-pulse-border hover:animate-spin border-red-700">
         <a href="https://www.instagram.com/jmorangus/"><Image 
           src="/coverPhoto.jpeg" 
           alt="Profile Picture" 

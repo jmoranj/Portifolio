@@ -12,6 +12,8 @@ export default function Header() {
         <a href="https://docs.google.com/document/d/17s88sP1SHfg6f6-1ybz21yWiAB2EQFII4JZAuORyB04/edit?usp=sharing" className="cursor-pointer hover:text-gray-500">Resume</a>
         <span className="mx-2 text-gray-400">|</span>
         <a href="https://github.com/jmoranj?tab=repositories" className="cursor-pointer hover:text-gray-500">Projects</a>
+        <span className="mx-2 text-gray-400">|</span>
+        <a href="linkedin.com/in/joaomorandim/" className="cursor-pointer hover:text-gray-500">Linkedin</a>
       </div>
     </div>
   );
